@@ -1,0 +1,25 @@
+Not here : Victor H, Pierre O, ?
+
+How to merge ?
+
+It's hard...
+
+Disambiguation ?
+
+Maria : worked on a team which already did that, for technical texts
+-> she think it'll be difficult
+
+Gregoire : hall, proposal of an other idea : classification of article.
+-> already exists ?
+
+Gregoire : Analysis to speech sentences
+-> to hard
+
+Eugenia : NER
+
+Victor : Caracterize humor ?
+-> 
+
+Movie subtitle : analysis and disambiguation
+
+Expression analysis

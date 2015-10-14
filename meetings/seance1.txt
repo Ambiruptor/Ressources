@@ -1,0 +1,62 @@
+1. Finding a name
+- The Disambiguiation Bar -> 
+- The Disambiguiation Game
+/!\ Always save !
+
+2. Looking for ambiguious words & discussing the subject
+WordNet? Jeuxdemots?
+
+
+
+The Disambiguation Game (DA Game)
+Smart D... ()    0
+Dissetction   0
+Disambiguiation 1
+Disambequation 3
+Ambiguation Distroyer (Ambistroyer) 4
+AmbiStop 0
+AmbiPrevent 1
+AmbiGame 3
+Ambiruptor 5
+
+Xuan: include feature (pdf->internet) to map the word to the meaning
+
+NAME: Ambiruptor (Ambiguity Interruptor)
+
+3. State of the art
+The article was from 2007; is there something new? 
+We need: someone to read the references of the 2007 article/tree of the article
+
+4. Objectives
+- Be able to disambiguiate words in a sentence
+- Using the tool (jokes, internet links)
+- Wikipedia?
+- output: labels on ambiguous words
+  1. Find the ambiguous words
+  2. Label them
+- ambiguous expressions?
+  1. Find the ambiguous expressions (delimiting them)
+  2. Label them
+
+5. HowTo: English.
+
+6. Communication tool?
+
+7. Skills?
+Simon: C, C++, Python, OCaml. 
+Pierre: OCaml, C, Java, Python. Machine Learning.
+Eugenia: Python, Java. Machine Learning, NLP. 
+Boumediene: C, C++, Java.
+Victor: OCaml. Neural Networks. 
+Xuan: C, C++. MATH.
+Samir: C, C++, OCaml, Python. 
+Maria: OCaml, Prolog, Java. NLP.
+
+Python language settled. (ask Blender to give us tutorials). + Git tutorial.
+
+
+Need: how to use university resources? distributed computering? 
+
+Next time: objectives.  Devide article fields among us.
+ 
+ 
