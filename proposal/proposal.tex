@@ -4,80 +4,97 @@
 \usepackage[utf8]{inputenc}
 \usepackage{fullpage}
 \usepackage{hyperref}
+\usepackage{color}
 
-\title{\textbf{Ambiruptor: The Ambiguation Interruptor}\\~\\Project Proposal}
-\author{Boumediene Brikci Sid\\
-        Ievgeniia Oshurko\\
-        Maria Boritchev\\
-        Pierre Ohlmann\\
-        Samir Tendjaoui\\
-        Simon Mauras\\
-        Thi Xuan Vu\\
-        Victor Hublitz}
+\title{\textbf{Ambiruptor: The Lexical Ambiguation
+    Interruptor}\\~\\Project Proposal}
+% \author{Boumediene Brikci Sid\\
+%         Ievgeniia Oshurko\\
+%         Maria Boritchev\\
+%         Pierre Ohlmann\\
+%         Samir Tendjaoui\\
+%         Simon Mauras\\
+%         Thi Xuan Vu\\
+%         Victor Hublitz}
 
-\date{22th October 2015}
+%\date{22th October 2015}
 
+\newcommand{\red}[1]{{\color{red} #1}}
+\renewcommand{\sectionautorefname}{Section}
+\renewcommand{\subsectionautorefname}{Section}
 \begin{document}
 
 \maketitle
 
 \vspace{1cm}
-\section*{Abstract}
-Throughout the second year at the ENS Lyon (first year of master), students have to work on an integrated project. This paper describes the proposal of the Ambiruptor project which is born from the merge of the NER project and the Joke Generator project.
+\section*{Presentation}
+%Throughout the second year at the ENS Lyon (first year of master), students have to work on an integrated project. This paper describes the proposal of the Ambiruptor project which is born from the merge of the NER project and the Joke Generator project.
 
-The main objective is to produce an efficient tool able to give the correct meaning of an ambiguous text. Several machine learning concepts are going to be implemented, and trained on annotated texts from the Wikimedia database.
+The main objective is to produce an efficient tool that gives the correct meaning of an ambiguous text. Our tool will be based on annotated texts from Wikimedia (\red{WikiMedia or WikiPedia?}) database. We are going to implement several machine learning concepts to train our tool and to solve the ambiguities in texts.
 
+Our team contains 8 members: Maria Boritchev, Boumediene Brikci Sid,
+Victor Hublitz, Simon Mauras, Pierre Ohlmann, Ievgeniia Oshurko,  Samir
+Tendjaoui, Thi Xuan Vu. The coordinator \red{(team-leader/big boss/any other cool word)} of the project is Simon Mauras \red{(??) definitely not me :)}.
 \vspace{1cm}
 \tableofcontents
 
 \newpage
 
 
-\section{Key parts}
+\section*{Motivation}
 
-\subsection{Research}
+\red{Please, put smth here. Like what is the disambiguation, maybe a small example (the one with bar?). And the most important: who cares about it besides of you 8 :)}
 
-The first part of our work is going to be research. You can find in section \ref{section:references} a first list of articles.
+\red{
+\section{Objectives}
+- Data retrieving/mining from existing sources: Wiki(p|m)edia, if some time left Thesaurus/WordNet \\
+- Data processing/analysis, like put some labels on the words, or cluster the words/senses/parts of speech/whatever. Probably you'll need to create your own model (or format) of data, might be json or xml.\\
+- Create your own training base/your dictionary. Should be easily modifiable\\
+- Learn some disambiguation methods and machine learning algorithms. Develop the core for your ambiguity resolving tool. If you choose this, or if time left using the supervised machine learning would be great. The last is completely Olga's opinion, if you are disagree, we forget about it :)\\
+- Implement some testing module\\
+- When everything is ready, put it on the Web, create a website, etc.\\
+You might also create several lists, like main objectives and secondary objectives (in case if you have too much time).
+}
+\section{Plan of Our Work}
+\subsection{Research on the State of the Art}
+
+The first part of our work is going to be research. You can find in~\autoref{section:references} a first list of articles.
 During the research part we are going to split in 3 groups working on the following topics:
 \begin{itemize}
 	\item Usual technics for text disambiguation
 	\item Machine learning algorithms.
 	\item Existing tools for data mining.
 \end{itemize}
-The first topic is mainly "State of the art" research. The goal is to find what has already been done and what is currently studied. The purpose of the second group is to compile a list of machine learning technics that can be used to solve our problem. The third group is going to look for tools that can enable us to mine workable data from the internet (Python API ?).
-
+\red{The text above does not sound very sexy, try to reformulate. I'm not sure if you need a list of articles here\\}
+The first topic is mainly "State of the art" research. The goal is to find what has already been done and what is currently studied. The purpose of the second group is to compile a list of several machine learning technics that can be used to solve our problem. The third group is going to look for tools that can enable us to mine workable data from the internet (Python API ?).
 At the end of this part, each group is going to do a quick summary on their results, so that everyone have an overview on the project.
 
 \subsection{Design}
 
-During the second part we are going to think about the structure and the design of the tool we want to implement. To do so we will split in 2 groups considering several possible ways on the following topics:
-\begin{itemize}
-	\item How should we implement the Ambiruptor tool ? (Languages, modules, ...)
-	\item How should the data be represented ? (Data storage, data-structures, ...)
-\end{itemize}
-Those two groups will exchange informations to make sure that their choices are compatible.
+During the second part we are going to think about the detailed structure and the design of the software we want to implement. 
+\red{Olga will put a preliminary picture as soon as gets home. If you don't like it, feel free to change it. I'm not a dictator, just want to propose you smth}\\
 The deadline for the end of this part is fixed on \textbf{November the 26th, 2015}.
 
-\subsection{Intermediary report}
+\subsection{Intermediate report}
 
-The intermediary report's deadline is fixed on \textbf{December the 3rd, 2015}. It will clarify all the details of the upcoming implementation. A small group of two or three people will summarize the decisions taken during the design part.
+We set the deadline for our intermediate report to \textbf{December the 3rd, 2015}. It will clarify all the details of the upcoming implementation. A small group of two or three people will summarize the decisions taken during the design part.
 
 \subsection{Implementation}
 
 The third part is probably the longest one. The implementation will be divided in 2 groups:
 \begin{itemize}
 	\item Adpatation of the chosen tools to extract workable data from the internet.
-	\item Implementation of the different modules (defined during the design part)
+	\item Implementation of the different modules (defined during the design part). \red{I don't like this name, too generic}
 \end{itemize}
 The progress of the second group slightly depends on the results of the first group. The deadline for the end of the implementation part is fixed on \textbf{January the 20th, 2016}.
 
 \subsection{Testing}
 
-Our tool will be tested progressively during the implementation. Yet, this part only consists of an industrial scale test phase. We will launch our tool on all the data we are able to process and it might take a while. The efficiency of our implementation will be calculated.
+Our tool will be tested progressively during the implementation. Yet, this part only consists of an industrial scale test phase. We will launch our tool on all the data we are able to process and it might take a while. The efficiency of our implementation will be calculated \red{tell how!}. 
 
 \subsection{Addons}
 
-As soon as the Ambiruptor tool becomes functional, the creation of user-friendly interfaces will be assign to a small group of students.
+As soon as the Ambiruptor tool becomes functional, the creation of user-friendly interfaces will be assigned to a small group of students.
 \begin{itemize}
 	\item Web application
 	\item Pdf reader plugin
@@ -91,10 +108,13 @@ The deadline for implementation, testing and addons is fixed on \textbf{March th
 
 The final report's deadline is fixed on \textbf{April the 15th, 2016} (one month before the public presentation). All students will summarize their year's work. Two or three people will compile those documents and produce the final report.
 
+\red{Comment on the whole section: Do you need the sentences like ``the deadline is fixed on bla''. Just put your Gantt chart, everybody can read it. There is no need to make the paper too long by using such sentences, be short and efficient}
 
-\section{Gantt diagram}
+\section{Gantt chart}
 
 cf diagram Victor
+
+\red{\section{What about Milestones?}}
 
 \section{References}
 \label{section:references}
