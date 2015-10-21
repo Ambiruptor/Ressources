@@ -1,0 +1,56 @@
+Ambiruptor (15/10/2015)
+
+Members : Oshurko Levgeniia, Hublitz Victor, Tendjaoui Samir, Vu Thi Wuan, Brikci Sid Boumediene, Olhmann Pierre, Mauras Simon, Boritchev Maria
+Absent : Mauras Simon, Boritchev Maria
+
+Objectives :
+
+* Labeling ambiguous words/expressions within context (finding the meaning)
+  -> Finding ambiguous words
+  -> Choosing the correct meaning of a word
+  -> Finding (easy) expressions (limits ?)
+  -> Choosing the correct meaning of an expression (limits ?)
+* Webpage / Webapp in text/pdf
+* Humor
+* Handling harder expressions
+* Ambiguity scaling
+
+
+
+Steps :
+
+Research : (3 modules)
+- Machine learning on natural language processing (NLP), current state of the art
+- How to mine data from the Internet ? 
+- How to make that data suitable ?
+- Which tools should be used for that ?
+- Ambiguity
+Technical paper :
+- List of sources
+- List of models
+- How to code it ?
+Design (Architecture plans,  designer tools) : 
+- Which code modules ?
+- Adapt to different models
+- Make it easy to update
+
+Have everyone look up 2-4 articles on their own, read them and send them to the mailing list (to make sure everyone doesn't read the same thing)
+
+Data mining / data suitable : 
+- Oshurko Levgeniia
+- Tendjaoui Samir
+- Vu Thi Wuan
+- Brikci Sid Boumediene
+- Ohlmann Pierre
+- Boritchev Maria
+- Mauras Simon
+
+Machine learning / tools
+- Oshurko Levgeniia 
+- Hublitz Victor
+- Brikci Sid Boumediene
+- Olhmann Pierre
+- Boritchev Maria
+- Mauras Simon
+
+Ambiguity : Everyone

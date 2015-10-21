@@ -1,0 +1,26 @@
+Task scheduling !
+
+Research = 20%
+Design = 10%
+Implementation = 30%
+Simulation = 30%
+Addons = 10%
+
+Research:        |--------|....|....        |      |      |
+Design:          |        |----|            |      |      |
+Implementation:  |        |    |------------|      |      |
+Simulation:      |        |    |        ....|------|------|
+Addons:          |        |    |            |      |------|
+               20/10         26/11        20/01         23/03
+
+Report = 15/04
+
+Research categories :
+- Technical aspect : Mining wikipedia, Python library
+- Usual methods for disambiguation
+
+For thursday :
+List of methods : Pierre & Thi & Boumediene
+Technical aspects for mining wikipedia : Eugenia
+Gant diagram : Victor
+Big modules & proposal : Simon & Eugenia
