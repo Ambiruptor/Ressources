@@ -1,0 +1,20 @@
+.deep approach (use knowledge) -> unfeasable
+
+.shallow approach (use surrounding words)
+	-> Naïve Bayes Classifiers (depends on feature extraction)
+	-> Decision tree learning (depends on feature extraction)
+	-> Support vector machines (depends on feature extraction)
+	-> Graph-based approaches
+	-> Dictionary based methods
+	-> Memory-based learning (depends on feature extraction)
+	-> Semi-supervised methods (depends on feature extraction)
+	-> Unsupervised techniques (no use of labelled training set)
+	...
+	
+.feature extraction techniques
+	-> Use of bigrams (http://www.aclweb.org/anthology/N01-1011)
+	-> Syntactic features (http://www.aclweb.org/anthology/U04-1001)
+	-> Fextor (http://czuk.eu/publications/fextor.pdf) (oups it's in POLISH!)
+	-> use of NLTK (python library) (http://www.nltk.org/)
+	...
+	
