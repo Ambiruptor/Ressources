@@ -1,6 +1,6 @@
 Ambiruptor (15/10/2015)
 
-Members : Oshurko Levgeniia, Hublitz Victor, Tendjaoui Samir, Vu Thi Wuan, Brikci Sid Boumediene, Olhmann Pierre, Mauras Simon, Boritchev Maria
+Members : Oshurko Levgeniia, Hublitz Victor, Tendjaoui Samir, Vu Thi Xuan, Brikci Sid Boumediene, Olhmann Pierre, Mauras Simon, Boritchev Maria
 Absent : Mauras Simon, Boritchev Maria
 
 Objectives :
@@ -39,7 +39,7 @@ Have everyone look up 2-4 articles on their own, read them and send them to the 
 Data mining / data suitable : 
 - Oshurko Levgeniia
 - Tendjaoui Samir
-- Vu Thi Wuan
+- Vu Thi Xuan
 - Brikci Sid Boumediene
 - Ohlmann Pierre
 - Boritchev Maria
