@@ -1,1 +1,14 @@
 - Finish the proposal
+
+Groups of research :
+- Disambiguation
+  -> Maria
+  -> Xuan
+  -> Boumediene
+- Machine learning
+  -> Victor
+  -> Simon
+- Data mining
+  -> Pierre
+  -> Ievgeniia
+  -> Samir
