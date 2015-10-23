@@ -4,7 +4,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage{fullpage}
 \usepackage{hyperref}
-\usepackage{color}
 \usepackage{pgf}
 \usepackage{tikz}
 \usetikzlibrary{arrows,automata}
@@ -22,9 +21,6 @@
 
 %\date{22th October 2015}
 
-\newcommand{\red}[1]{{\color{red} #1}}
-\renewcommand{\sectionautorefname}{Section}
-\renewcommand{\subsectionautorefname}{Section}
 \begin{document}
 
 \maketitle
@@ -33,16 +29,13 @@
 \section*{Presentation}
 %Throughout the second year at the ENS Lyon (first year of master), students have to work on an integrated project. This paper describes the proposal of the Ambiruptor project which is born from the merge of the NER project and the Joke Generator project.
 
-The main objective is to produce an efficient tool that gives the correct meaning of an ambiguous text. Our tool will be based on annotated texts from internet database. We are going to implement several machine learning concepts to train our tool and to solve the ambiguities in texts.
+The main objective is to produce an efficient tool that gives the correct meaning of an ambiguous text. Our tool will be based on several machine learning concepts. We are going to use annotated texts from the internet to train our tool and resolve ambiguities in texts.
 
-Our team consists of 8 members: Maria Boritchev, Boumediene Brikci Sid,
-Victor Hublitz, Simon Mauras, Pierre Ohlmann, Ievgeniia Oshurko, Samir
-Tendjaoui, Thi Xuan Vu. The coordinators of the project are Simon Mauras and Ievgeniia Oshurko.
+Our team consists of 8 members: Boumediene Brikci Sid, Ievgeniia Oshurko, Maria Boritchev, Pierre Ohlmann, Samir Tendjaoui, Simon Mauras, Thi Xuan Vu and Victor Hublitz. The coordinators of the project are Simon Mauras and Ievgeniia Oshurko.
 \vspace{1cm}
 \tableofcontents
 
 \newpage
-
 
 \section*{Motivation}
 
@@ -82,6 +75,13 @@ At the end of this part, each group is going to do a quick summary on their resu
 
 During the second part we are going to think about the detailed structure and the design of the software we want to implement. 
 
+%\begin{tikzpicture}[->,>=stealth',node distance=4cm]
+%  \node[]           (W)             {Wiki};
+%  \node[state,rectangle]  (D) [right of=W] {Data};
+%  \node[state,rectangle]  (P) [right of=D] {Processing};
+%  \node[state,rectangle]  (F) [right of=P] {Features\\extraction};
+%\end{tikzpicture}
+
 %The deadline for the end of this part is fixed on \textbf{November the 26th, 2015}.
 
 \subsection{Intermediate report}
@@ -120,21 +120,28 @@ We can expand this part if the project goes well and fast, as we can shorten it 
 %The final report's deadline is fixed on \textbf{April the 15th, 2016} (one month before the public presentation).
 All students will summarize their year's work. Two or three people will compile those documents and write the final report.
 
-\section{Gantt chart}
+\section{Organization}
 
-cf diagram Victor
-
-\section{Milestones}
+\subsection{Project Management}
 
 \begin{itemize}
-	\item 25/11/2015 : The architecture of the project is finished.
-	\item 02/12/2015 : Deadline for the intermediate report.
-	\item 19/01/2015 : The implementation is finished.
-	\item 18/02/2015 : First results of the tests.
-	\item 23/03/2015 : Tests are completed.
-	\item 14/04/2015 : Deadline for the final report.
+	\item Git repository: \url{https://github.com/Ambiruptor}
+	\item Mailing list: \href{mailto:ambiruptor@ens-lyon.fr}{\texttt{ambiruptor@ens-lyon.fr}}
 \end{itemize}
 
+\subsection{Gantt chart}
 
+\includegraphics[width=\textwidth]{ambiruptor.png}
+
+\subsection{Milestones}
+
+\begin{itemize}
+	\item 26/11/2015 : The architecture of the project is finished.
+	\item 03/12/2015 : Deadline for the intermediate report.
+	\item 21/01/2015 : The implementation is finished.
+	\item 18/02/2015 : First results of the tests.
+	\item 24/03/2015 : Tests are completed.
+	\item 14/04/2015 : Deadline for the final report.
+\end{itemize}
 
 \end{document}
