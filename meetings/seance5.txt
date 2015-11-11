@@ -1,0 +1,21 @@
+5 nov 2015
+
+--------------- Reasearch ---------------
+
+* Victor : Unsupervised method -> Disambiguation
+Only mine a list of ambiguous words
+Progressively increase lexcal field of a word.
+
+* Maria : State of the art
+-> Using Wikipedia for Automatic Word Sense Disambiguation (2006)
+-> Annotating language errors in texts: investigating argumentation and decisio schemas ()
+-> ...
+
+Eugenia :
+-> Wikipedia & WordNet : how to fin a list of ambiguous word ?
+-> Wikipedia API or Download Wikipedia
+
+----------------- Design ----------------
+Feature : Pierre & Maria
+Creating a training corpus : Victor & Eugenia & Simon
+Finding existing corpus : Xuan & Boumediene & Samir
